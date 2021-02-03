@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #34363e;
+}
+
+.main-text {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-card {
+  margin-top: 2rem;
+  color: #fff;
+  min-height: 500px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  box-shadow: 0px 8px 60px -10px black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+}
+
+.image {
+  position: absolute;
+  bottom: 80%;
+  border-radius: 50%;
+}
+
+.image img {
+  width: 170px;
+  height: 170px;
+  box-shadow: 0px 8px 60px -10px #333;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 1.5rem 0.5rem 1.5rem;
+}
+
+.location {
+  display: flex;
+  margin: 1rem;
+}
+
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: 0.5s ease-in-out;
+}
+
+.fa-github:hover {
+  color: grey;
+}
+
+.fa-linkedin:hover {
+  background: #fff;
+  color: blue;
+}
+
+.fa-instagram:hover {
+  color: rgb(194, 55, 78);
+}
+
+.fire {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#fire-text {
+  margin: 0.5rem;
+}
+
+.fa-fire {
+  color: rgb(255, 72, 0);
+}
